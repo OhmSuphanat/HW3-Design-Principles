@@ -1,1 +1,11 @@
 # HW3-Design-Principles
+## การวางโครงสร้างไฟล์
+- src
+    - main
+        - java
+            - org.example
+                - Email.java
+                - Main.java
+                - Sys.java
+                - User.java
+                - Verificated.java
