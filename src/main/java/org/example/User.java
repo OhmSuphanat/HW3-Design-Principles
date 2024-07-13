@@ -38,5 +38,8 @@ public class User implements Verificated{
         if ( !getName().matches("[a-zA-Z]+")){
             throw new IllegalArgumentException("Name is wrong format");
         }
+        if( getAge() < 20 ) {
+            throw new IllegalArgumentException("Age should more than 20 years");
+        }
     }
 }
